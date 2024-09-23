@@ -4,25 +4,22 @@ using UnityEngine;
 
 public class Obstaculos : MonoBehaviour
 {
-    public GameObject obstaculos;
-    public Vector2 spawnPos;
-    public float delay =2f;
-    public float repeatRate =2;
-    
-
-    // Start is called before the first frame update
-    void Start()
+    public float velocidad = 3f;
+    public float tiempoVivo = 0f;
+    public float tiempoDeVidaMaximo = 5f;
+    void Update()
     {
-        InvokeRepeating("SpawnObstacle", delay, repeatRate);
+        transform.position -= new Vector3(velocidad *(Time.deltaTime), 0, 0);
+        tiempoVivo += Time.deltaTime;
+        {
+            if (tiempoVivo >= tiempoDeVidaMaximo)
+            {
+                Destroy(this.gameObject);
+            }
+        }
+
 
     }
 
-    void SpawnObstacle()
-    {
-        Instantiate(obstaculos, spawnPos, obstaculos.transform.rotation);
 
-        
-    }
-
-    
 }
