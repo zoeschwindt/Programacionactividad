@@ -172,5 +172,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidad: 3
-  tiempoVivo: 0
-  tiempoDeVidaMaximo: 5
+  tiempoVivo: 1
+  tiempoDeVidaMaximo: 8
