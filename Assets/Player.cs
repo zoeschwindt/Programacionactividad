@@ -8,6 +8,9 @@ public class Player : MonoBehaviour
     public float fuerzaSalto = 5f;
     private bool tocandoPiso;
 
+    [SerializeField] GameOver deathMenu;
+
+
     void Start()
     {
         platerRB = GetComponent<Rigidbody2D>();
@@ -26,5 +29,9 @@ public class Player : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         tocandoPiso = true;
+        if (collision.gameObject.CompareTag("Enemy")) 
+        {
+            deathMenu.ActiveScreenLose();
+        }
     }
 }
