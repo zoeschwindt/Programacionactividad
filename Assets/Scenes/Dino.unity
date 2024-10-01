@@ -150,7 +150,7 @@ Transform:
   m_GameObject: {fileID: 1202263}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 12, y: -5.95, z: -0.07603455}
+  m_LocalPosition: {x: 12, y: -5.93, z: -0.07603455}
   m_LocalScale: {x: 1.9265025, y: 1.1823425, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -302,7 +302,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1903, y: 834}
+  m_AnchoredPosition: {x: 1919, y: 818}
   m_SizeDelta: {x: 964.77, y: 872.44}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &25625539
@@ -334,8 +334,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4279841023
-  m_fontColor: {r: 1, g: 0.1892137, b: 0.096226394, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1156,8 +1156,8 @@ Transform:
   m_GameObject: {fileID: 1240912588}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -13, y: -5.94, z: -0.07603455}
-  m_LocalScale: {x: 1.876037, y: 1.1823425, z: 1}
+  m_LocalPosition: {x: -13.8879, y: -5.94, z: -0.07603455}
+  m_LocalScale: {x: 2.1534941, y: 1.1823425, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 782795250}
@@ -1530,8 +1530,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.59900004}
-  m_AnchoredPosition: {x: -66.662, y: -280.46}
-  m_SizeDelta: {x: 5.9921, y: -71.82}
+  m_AnchoredPosition: {x: -82, y: -62}
+  m_SizeDelta: {x: 6.96, y: -69.02}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1569448063
 MonoBehaviour:
@@ -1602,7 +1602,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.08179426, g: 1, b: 0, a: 1}
+  m_Color: {r: 0.98490566, g: 0.07990736, b: 0.07990736, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1684,7 +1684,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -2
+  m_SortingOrder: -4
   m_Sprite: {fileID: 21300000, guid: 25f5dd882b9a174479452a141f505214, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1756,8 +1756,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ArregleDeObstaculos:
-  - {fileID: 3407540881721292560, guid: aa79965a2fa4d4b49839f9091b735a8e, type: 3}
+  - {fileID: 2832292862342559171, guid: 7f750eacb1fdf01499385275c437609e, type: 3}
   - {fileID: 8821227184603659085, guid: 35a4a0bbe8a03ef43b219d1db2f5e471, type: 3}
+  - {fileID: 2832292862342559171, guid: c062c2a380c13ee4a89d9c9b57afc2c1, type: 3}
+  - {fileID: 2832292862342559171, guid: 4b4ba8aed35c6cb40afea3ec78a06733, type: 3}
+  - {fileID: 2832292862342559171, guid: 006a00dd5c72dfe408f40f90bcbda466, type: 3}
   posicionSpawn: {x: 0, y: 0}
   tiempoDeArranque: 0
   repeticion: 2
@@ -1789,8 +1792,8 @@ Transform:
   m_GameObject: {fileID: 1902244059}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.5391, y: -5.94, z: -0.07603455}
-  m_LocalScale: {x: 2.103968, y: 1.1823425, z: 1}
+  m_LocalPosition: {x: -0.5259, y: -5.88, z: -0.07603455}
+  m_LocalScale: {x: 2.032661, y: 1.1218376, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 782795250}
